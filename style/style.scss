@@ -13,7 +13,7 @@ td {
 	border-bottom-width: none;
 }
 .navbar-brand img {
-  width: 50px ;
+	width: 50px;
 }
 
 body {
@@ -32,7 +32,7 @@ body {
 		background-color: #f4fdf6b9;
 		width: 90%;
 		margin: 50px auto;
-        padding: 20px;
+		padding: 20px;
 		min-height: 100vh;
 		height: auto;
 		border-radius: 50px;
@@ -51,18 +51,18 @@ body {
 			display: block;
 		}
 		.btn {
-            background-color: rgb(141, 82, 27);
-            margin: 0 auto;
-            display: block;
-            border: none;
-            border-radius: 10px 10px 50px;
-            color: white;
-            cursor: pointer;
-            -webkit-border-radius: 10px 10px 50px;
-            -moz-border-radius: 10px 10px 50px;
-            -ms-border-radius: 10px 10px 50px;
-            -o-border-radius: 10px 10px 50px;
-}
+			background-color: rgb(141, 82, 27);
+			margin: 0 auto;
+			display: block;
+			border: none;
+			border-radius: 10px 10px 50px;
+			color: white;
+			cursor: pointer;
+			-webkit-border-radius: 10px 10px 50px;
+			-moz-border-radius: 10px 10px 50px;
+			-ms-border-radius: 10px 10px 50px;
+			-o-border-radius: 10px 10px 50px;
+		}
 		.seeMenuLink {
 			text-align: center;
 			display: block;
@@ -91,7 +91,7 @@ body {
 
 		.BookTable {
 			width: 90%;
-            max-width: 600px;
+			max-width: 600px;
 			min-height: 150px;
 			height: auto;
 			margin: 50px auto;
@@ -110,7 +110,7 @@ body {
 			}
 			.nameInput {
 				width: 90%;
-                max-width: 300px;
+				max-width: 300px;
 				border-radius: 5px;
 				-webkit-border-radius: 5px;
 				-moz-border-radius: 5px;
@@ -129,6 +129,8 @@ body {
 			justify-content: center;
 			img {
 				max-width: 400px;
+				max-height: 400px;
+				height: auto;
 			}
 		}
 		h3 span {
@@ -143,11 +145,14 @@ body {
 			margin: 20px auto;
 			justify-content: center;
 			img {
-				max-width: 400px;
+				max-width: 400px; 			
+				max-height: 400px;
+				height: auto;
 			}
 		}
 	}
 }
+
 
 @media screen and (min-width: 769px) {
 	/* STYLES HERE */
@@ -166,7 +171,6 @@ body {
 			width: 40%;
 			padding: 20px;
 			margin-top: 100px;
-            
 		}
 	}
 

@@ -143,6 +143,8 @@ body main .lunchMenuContainer {
 body main .breakFastMenuContainer img,
 body main .lunchMenuContainer img {
   max-width: 400px;
+  max-height: 400px;
+  height: auto;
 }
 
 body main h3 span {
@@ -159,6 +161,8 @@ body main .row {
 
 body main .row img {
   max-width: 400px;
+  max-height: 400px;
+  height: auto;
 }
 
 @media screen and (min-width: 769px) {
