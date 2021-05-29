@@ -15,6 +15,10 @@ td {
   border-bottom-width: none;
 }
 
+.navbar-brand img {
+  width: 50px;
+}
+
 body {
   width: 100%;
   min-height: 100vh;
@@ -29,9 +33,15 @@ body {
 body main {
   background-color: #f4fdf6b9;
   width: 90%;
-  margin: 0 auto;
+  margin: 50px auto;
+  padding: 20px;
   min-height: 100vh;
   height: auto;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
 }
 
 body main .mainContainer {
@@ -45,7 +55,7 @@ body main .mainContainer {
 body main .heroImg {
   max-width: 300px;
   max-height: 300px;
-  margin: 0 auto;
+  margin: 20px auto;
   display: block;
 }
 
@@ -54,8 +64,13 @@ body main .btn {
   margin: 0 auto;
   display: block;
   border: none;
+  border-radius: 10px 10px 50px;
   color: white;
   cursor: pointer;
+  -webkit-border-radius: 10px 10px 50px;
+  -moz-border-radius: 10px 10px 50px;
+  -ms-border-radius: 10px 10px 50px;
+  -o-border-radius: 10px 10px 50px;
 }
 
 body main .seeMenuLink {
@@ -87,9 +102,10 @@ body main .seeMenuLink:hover {
 
 body main .BookTable {
   width: 90%;
+  max-width: 600px;
   min-height: 150px;
   height: auto;
-  margin: 0 auto;
+  margin: 50px auto;
   border-radius: 30px;
   border: none;
   background: linear-gradient(145deg, #ffffff, #dce4dd);
@@ -108,6 +124,7 @@ body main .BookTable .header {
 
 body main .BookTable .nameInput {
   width: 90%;
+  max-width: 300px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -118,8 +135,6 @@ body main .BookTable .nameInput {
 
 body main .breakFastMenuContainer,
 body main .lunchMenuContainer {
-  -ms-flex-wrap: wrap-reverse;
-      flex-wrap: wrap-reverse;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -136,8 +151,6 @@ body main h3 span {
 }
 
 body main .row {
-  -ms-flex-wrap: wrap-reverse;
-      flex-wrap: wrap-reverse;
   margin: 20px auto;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -146,5 +159,39 @@ body main .row {
 
 body main .row img {
   max-width: 400px;
+}
+
+@media screen and (min-width: 769px) {
+  /* STYLES HERE */
+  .mainContainer {
+    padding-top: 100px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .mainContainer .heroImg {
+    max-width: 500px;
+    max-height: 500px;
+    width: 100%;
+    height: auto;
+  }
+  .mainContainer .heroText {
+    width: 40%;
+    padding: 20px;
+    margin-top: 100px;
+  }
+  table {
+    margin-top: 200px;
+  }
+}
+
+@media (max-device-width: 768px) {
+  /* STYLES HERE */
+  hr {
+    display: none;
+  }
+}
+
+@media only screen and (max-device-width: 480px) {
+  /* STYLES HERE */
 }
 /*# sourceMappingURL=style.css.map */
